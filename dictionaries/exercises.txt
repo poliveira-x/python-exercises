@@ -1,0 +1,18 @@
+Exercise 1: Easy
+Write a program that creates an empty dictionary and adds three key-value pairs to it. The keys should be the names of fruits, and the values should be their respective quantities. Finally, print the dictionary.
+
+Exercise 2: Easy
+Write a program that takes a dictionary containing the names and ages of five people as input. The program should find the person with the maximum age and print their name.
+
+Exercise 3: Medium
+Write a program that counts the frequency of each character in a given string and stores the results in a dictionary. Ignore whitespace and punctuation marks. Print the dictionary.
+
+Exercise 4: Medium
+Write a program that takes two dictionaries as input and merges them into a single dictionary. If there are common keys, the values should be summed. Print the merged dictionary.
+
+Exercise 5: Difficult
+Write a program that takes a list of words as input and returns a dictionary where the keys are the words and the values are the lengths of the corresponding words. Use a dictionary comprehension to accomplish this.
+
+Exercise 6: Difficult
+Write a program that takes a dictionary as input, where the keys are the names of students and the values are lists of their grades. The program should calculate the average grade for each student and store the results in a new dictionary. Print the new dictionary.
+

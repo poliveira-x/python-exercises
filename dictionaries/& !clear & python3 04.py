@@ -13,23 +13,20 @@ fruits2 = {"pear" : 14,
            "lemon" :6,
            "orange" : 2,}
 
-
-print(fruits1, fruits2)
-print('*'*40)
-
 def make_new_dict(dict1, dict2):
     key = ''
     value = ''
     new_dict = {}
     def extract(dictionary):
         for i in dictionary:
-            new_dict[i] = dictionary[i]
-
+            print(i, dictionary[i])
+            #new_dict[i] = dictionary[1]
         
-    extract(dict1)
-    extract(dict2)
 
-    print(new_dict)
+    extract(dict1)
+
+
+
 
 
 print(make_new_dict(fruits1, fruits2))

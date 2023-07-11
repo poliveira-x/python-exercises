@@ -11,11 +11,13 @@ fruits1 = {'banana' : 12,
 fruits2 = {"pear" : 14,
            "apple" : 7,
            "lemon" :6,
-           "orange" : 2,}
+           "orange" : 6,}
 
 
-print(fruits1, fruits2)
-print('*'*40)
+print(f"\n{fruits1}\n{fruits2}")
+print(f"{'*'*46}\n")
+
+
 
 def make_new_dict(dict1, dict2):
     key = ''
@@ -23,17 +25,21 @@ def make_new_dict(dict1, dict2):
     new_dict = {}
     def extract(dictionary):
         for i in dictionary:
-            new_dict[i] = dictionary[i]
-
+            if i in new_dict:
+                new_dict[i]+=dictionary[i]
+            else:
+                new_dict[i]=dictionary[i]
         
     extract(dict1)
     extract(dict2)
 
-    print(new_dict)
+    return new_dict
 
 
-print(make_new_dict(fruits1, fruits2))
+nd = make_new_dict(fruits1, fruits2)
 
 
+for i in nd:
+    print(i, nd[i])
 
 
